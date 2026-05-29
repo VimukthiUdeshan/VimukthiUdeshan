@@ -12,13 +12,15 @@ width="100%"/>
 <img src="https://i.pinimg.com/originals/e2/9c/75/e29c75880a73d8a049c09ceca6eaa666.gif" alt="Banner" width="100%" />
 
 ## 📊 GitHub Stats & Trophies
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VimukthiUdeshan&show_icons=true&theme=monokai&border_radius=10"
-       width="35%" />
+<div align="center">
+
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VimukthiUdeshan&show_icons=true&theme=monokai"
+       width="49%" style="vertical-align: top;" />
 
   <img src="https://streak-stats.demolab.com/?user=VimukthiUdeshan&theme=monokai&hide_border=true"
-       width="35%" />
-</p>
+       width="49%" style="vertical-align: top;" />
+
+</div>
 <p align="center">
   <img src="https://trophy.ryglcloud.net/?username=VimukthiUdeshan&theme=monokai&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Vimukthi Rajapaksha's GitHub Trophies" />
 </p>
