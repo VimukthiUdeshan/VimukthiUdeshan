@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:ff0000,50:cc0000,100:660000&text=Vimukthi%20Rajapaksha&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&textBg=false"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:ff0000,50:cc0000,100:660000&text=Vimukthi%20Rajapaksha&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&textBg=false"
+width="100%"/>
 
 <p align="center">
   <a href="https://komarev.com/ghpvc/?username=VimukthiUdeshan">
