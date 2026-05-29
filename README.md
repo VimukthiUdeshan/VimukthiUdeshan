@@ -13,9 +13,11 @@ width="100%"/>
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=VimukthiUdeshan&show_icons=true&theme=monokai&border_radius=10" />
-  &nbsp;&nbsp;
-  <img height="180em" src="https://streak-stats.demolab.com/?user=VimukthiUdeshan&theme=monokai&hide_border=true" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VimukthiUdeshan&show_icons=true&theme=monokai&border_radius=10"
+       width="48%" />
+
+  <img src="https://streak-stats.demolab.com/?user=VimukthiUdeshan&theme=monokai&hide_border=true"
+       width="48%" />
 </p>
 <p align="center">
   <img src="https://trophy.ryglcloud.net/?username=VimukthiUdeshan&theme=monokai&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Vimukthi Rajapaksha's GitHub Trophies" />
