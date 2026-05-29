@@ -2,9 +2,11 @@
 width="100%"/>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=VimukthiUdeshan">
-    <img src="https://komarev.com/ghpvc/?username=VimukthiUdeshan&label=Profile%20views&color=00FFFF&style=flat-square" alt="VimukthiUdeshan's profile views" />
-  </a>
+
+  <img src="https://img.shields.io/badge/GitHub%20Profile-Analytics-black?style=for-the-badge&logo=github&logoColor=white" />
+
+  <img src="https://komarev.com/ghpvc/?username=VimukthiUdeshan&label=LIVE%20VISITORS&color=ff0000&style=for-the-badge" />
+
 </p>
 
 <img src="https://i.pinimg.com/originals/e2/9c/75/e29c75880a73d8a049c09ceca6eaa666.gif" alt="Banner" width="100%" />
