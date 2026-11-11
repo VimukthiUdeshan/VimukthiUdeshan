@@ -74,7 +74,7 @@ Update its title, description, table, and repository link.
 Use <details> to make the project collapsed initially.
 -->
 
-<details open>
+<details>
 <summary><b>TropicStore — Smart Fruit Ripening Chamber</b></summary>
 
 <br />
@@ -103,7 +103,7 @@ Add when ready:
 
 <br />
 
-<details open>
+<details>
 <summary><b>RescueMesh — AI-Assisted Flood Emergency Response</b></summary>
 
 <br />
@@ -169,7 +169,7 @@ FUTURE UPDATES:
 
 <br />
 
-<details open>
+<details>
 <summary><b>AI Business Automation Platform — Beauty of Cloud 2.0</b></summary>
 
 <br />
