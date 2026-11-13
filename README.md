@@ -205,8 +205,6 @@ The dashboard includes interfaces for an operational overview, knowledge managem
 
 **Project scope:** A competition prototype demonstrating the dashboard and proposed architecture; the full production platform was not implemented.
 
-**Repository:** Coming soon.
-
 <!--
 ADD YOUR REPOSITORY:
 Replace "Repository: Coming soon." above with the following line,
@@ -214,6 +212,9 @@ then replace YOUR_REPOSITORY_URL with your GitHub repository link.
 
 [View Repository →](YOUR_REPOSITORY_URL)
 -->
+<a href="https://github.com/VR-Force/cloud-based-multi-tenant-ai-platform">
+  <img src="https://img.shields.io/badge/View_Repository-Cloud_AI_Platform-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Cloud AI Platform repository" />
+</a>
 
 </details>
 
