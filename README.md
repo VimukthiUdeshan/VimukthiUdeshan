@@ -46,14 +46,6 @@ Through academic and personal projects, I am building experience in:
 - C++ programming and algorithm implementation
 - Database-driven applications
 
-### High Performance Computing
-
-As part of my HPC studies, my project focuses on **load-balanced parallel Graph Neural Network (GNN) inference for large collections of small graphs**.
-
-The project aims to develop a **C/C++ inference engine**, parallelise it using **OpenMP**, and compare scheduling strategies to improve workload distribution across CPU cores.
-
-**Areas of interest:** Parallel Programming · Multicore Computing · Load Balancing · Performance Evaluation
-
 ### Open To
 
 - Software Engineering Internships
@@ -153,9 +145,6 @@ Replace "Repository link coming soon" in the table above with:
 [View ML Repository](YOUR_ML_REPOSITORY_URL)
 -->
 
-### Development Status
-
-Current work covers the **software and AI/ML components**, including backend endpoints for gateway communication. Integration and end-to-end testing with the team's **IoT hardware** are planned.
 
 <!--
 FUTURE UPDATES:
@@ -218,6 +207,58 @@ then replace YOUR_REPOSITORY_URL with your GitHub repository link.
 
 </details>
 
+<details>
+<summary><b>Shelfy AI — NLP Supermarket Shopping Assistant</b></summary>
+
+<br />
+
+A desktop chatbot designed for a supermarket entrance. Shoppers type their grocery list in plain English, and the assistant finds each item, shows its shelf location, and exports a printable PDF shopping list.
+
+Developed for **CO3251 – Natural Language Processing** at the University of Sri Jayewardenepura.
+
+### Key Features
+
+- **NLP Item Extraction:** Uses NLTK tokenization, POS tagging, and lemmatization, with a noise-word filter, to pull grocery items out of free-form sentences.
+- **Product Lookup:** Searches a database of 101 products across 18 shelf zones, using exact matching first and then fuzzy matching.
+- **Typo Recovery:** Suggests close matches with one-tap *Yes / No* buttons (for example, "chokolate" → "milk chocolate").
+- **PDF Shopping List:** Exports the cart with shelf locations, date, and time using ReportLab.
+- **Accounts and History:** Supports email, Google, and guest sign-in, with trips saved to Firebase Realtime Database.
+
+### Technology Stack
+
+| Component | Technologies |
+| :--- | :--- |
+| Language | Python |
+| NLP | NLTK · WordNet · difflib |
+| Desktop GUI | CustomTkinter |
+| Authentication & Storage | Firebase Auth · Realtime Database · Google OAuth2 |
+| PDF Export | ReportLab |
+
+<a href="https://github.com/VimukthiUdeshan/shelfy-ai">
+  <img src="https://img.shields.io/badge/View_Repository-Shelfy_AI-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Shelfy AI repository" />
+</a>
+
+</details>
+
+<details>
+<summary><b>Load-Balanced Parallel GNN Inference — HPC Project</b> <sub>· In Progress</sub></summary>
+
+<br />
+
+A High Performance Computing project on **parallel Graph Neural Network (GNN) inference for large collections of small graphs**.
+
+The goal is to build a **C/C++ inference engine**, parallelise it with **OpenMP**, and compare **scheduling strategies** to distribute workload evenly across CPU cores.
+
+| Area | Details |
+| :--- | :--- |
+| Domain | Parallel Programming · Multicore Computing · Performance Evaluation |
+| Core technologies | C/C++ · OpenMP |
+| Focus | Load balancing and scheduling strategy comparison |
+| Status | **In progress** |
+
+</details>
+
+<br />
 
 ---
 
@@ -385,8 +426,6 @@ Interested in discussing software, cloud computing, IoT, or parallel computing? 
     <img src="https://img.shields.io/badge/GitHub-VimukthiUdeshan-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="VimukthiUdeshan on GitHub" />
   </a>
 </p>
-
-**Email:** [vimukthiudeshan2018@gmail.com](mailto:vimukthiudeshan2018@gmail.com)
 
 </div>
 
