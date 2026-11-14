@@ -93,8 +93,6 @@ Add when ready:
 
 </details>
 
-<br />
-
 <details>
 <summary><b>RescueMesh — AI-Assisted Flood Emergency Response</b></summary>
 
@@ -155,8 +153,6 @@ FUTURE UPDATES:
 -->
 
 </details>
-
-<br />
 
 <details>
 <summary><b>AI Business Automation Platform — Beauty of Cloud 2.0</b></summary>
@@ -241,7 +237,7 @@ Developed for **CO3251 – Natural Language Processing** at the University of Sr
 </details>
 
 <details>
-<summary><b>Load-Balanced Parallel GNN Inference — HPC Project</b> <sub>· In Progress</sub></summary>
+<summary><b>Load-Balanced Parallel GNN Inference — HPC Project</b>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-In_Progress-F59E0B?style=flat-square" alt="In Progress" /></summary>
 
 <br />
 
@@ -257,8 +253,6 @@ The goal is to build a **C/C++ inference engine**, parallelise it with **OpenMP*
 | Status | **In progress** |
 
 </details>
-
-<br />
 
 ---
 
