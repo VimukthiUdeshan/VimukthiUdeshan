@@ -237,7 +237,7 @@ Developed for **CO3251 – Natural Language Processing** at the University of Sr
 </details>
 
 <details>
-<summary><b>Load-Balanced Parallel GNN Inference — HPC Project</b>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-In_Progress-F59E0B?style=flat-square" alt="In Progress" /></summary>
+<summary><b>Load-Balanced Parallel GNN Inference — HPC Project</b>&nbsp;</summary>
 
 <br />
 
