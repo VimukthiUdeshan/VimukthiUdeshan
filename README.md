@@ -254,6 +254,42 @@ The goal is to build a **C/C++ inference engine**, parallelise it with **OpenMP*
 
 </details>
 
+<details>
+<summary><b>Smart Farming — AI-Assisted Crop Advisory & Soil Monitoring</b></summary>
+
+<br />
+
+A **Flutter mobile application** that helps farmers make data-driven decisions without needing prior agricultural knowledge. It combines **live soil sensor readings, local weather data, and AI** to recommend suitable crops, identify plant problems, and answer farming questions.
+
+Soil data is collected by an **ESP32** connected to a **pH probe sensor (0–14 pH)** and an **RS485 3-in-1 soil sensor (EC, humidity, and temperature)**, and streamed to the app through **Firebase Realtime Database** for real-time field monitoring.
+
+### Key Features
+
+- **Crop Recommendation:** Combines soil pH, EC, moisture, temperature, soil type, and live weather to suggest suitable crops, with manual input when no sensor is connected.
+- **Live Soil Monitoring:** Animated gauges for pH, EC, soil humidity, and soil temperature, updated from the ESP32 through Firebase.
+- **Plant Doctor:** Take or upload a plant photo for identification using the **PlantNet API**, with past results saved in scan history.
+- **AI Assistant:** A **Google Gemini** chatbot that answers farming questions in plain language.
+- **Weather Insights:** Current conditions and forecasts through the **OpenWeather API**.
+- **Multilingual Support:** English, Sinhala, and Tamil.
+- **Authentication:** Email and Google sign-in with Firebase Auth.
+
+### Technology Stack
+
+| Component | Technologies |
+| :--- | :--- |
+| Mobile Application | Flutter · Dart |
+| Microcontroller | ESP32 |
+| Sensors | pH probe sensor (0–14 pH) · RS485 3-in-1 EC, humidity, and temperature soil sensor |
+| Backend & Database | Firebase Auth · Cloud Firestore · Realtime Database |
+| AI & APIs | Google Gemini · PlantNet · OpenWeather |
+| Crop Scoring Module | Python · Flask |
+
+<a href="https://github.com/Rifthy2003/Smart-Farming">
+  <img src="https://img.shields.io/badge/View_Repository-Smart_Farming-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Smart Farming repository" />
+</a>
+
+</details>
+
 ---
 
 ## Technical Skills
