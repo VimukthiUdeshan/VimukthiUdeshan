@@ -437,9 +437,14 @@ Copy a table row and update the competition, result, and details.
 ---
 
 ## GitHub Activity
-
+<!-- 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=VimukthiUdeshan&show_icons=true&hide_border=true&bg_color=0F172A&title_color=60A5FA&icon_color=38BDF8&text_color=CBD5E1&border_radius=12" alt="Vimukthi Rajapaksha's GitHub statistics" width="460" />
+</p>
+-->
+
+<p align="center">
+  <img src="./assets/stats.svg" alt="Vimukthi Rajapaksha's GitHub statistics" width="460" />
 </p>
 
 ---
