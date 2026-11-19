@@ -9,19 +9,14 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate GitHub Stats SVG
-        uses: jstrieb/github-stats@v1
+      - uses: lowlighter/metrics@latest
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: VimukthiUdeshan
-          OUTPUT_PATH: assets/stats.svg
-          TITLE_COLOR: "#60A5FA"
-          TEXT_COLOR: "#CBD5E1"
-          ICON_COLOR: "#38BDF8"
-          BG_COLOR: "#0F172A"
-          BORDER_COLOR: "#0F172A"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: VimukthiUdeshan
+          template: classic
+          filename: assets/stats.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Colombo
