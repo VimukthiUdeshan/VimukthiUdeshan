@@ -1,0 +1,27 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Runs automatically every 6 hours
+  workflow_dispatch: # Lets you click "Run workflow" manually in the Actions tab
+
+permissions:
+  contents: write # Allows the Action to save the SVG file to your repo
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Stats SVG
+        run: |
+          mkdir -p assets
+          curl -s "https://vercel.app" -o assets/stats.svg
+
+      - name: Commit updated SVG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/stats.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git push)
