@@ -3,10 +3,10 @@ name: Update GitHub Stats
 on:
   schedule:
     - cron: '0 */6 * * *' # Runs automatically every 6 hours
-  workflow_dispatch: # Lets you click "Run workflow" manually in the Actions tab
+  workflow_dispatch: # Manual "Run workflow" button in Actions tab
 
 permissions:
-  contents: write # Allows the Action to save the SVG file to your repo
+  contents: write
 
 jobs:
   update-card:
@@ -17,7 +17,14 @@ jobs:
       - name: Fetch Stats SVG
         run: |
           mkdir -p assets
-          curl -s "https://vercel.app" -o assets/stats.svg
+          curl -s -L -A "Mozilla/5.0" "https://vercel.app" -o assets/temp.svg
+          if grep -q "<svg" assets/temp.svg; then
+            mv assets/temp.svg assets/stats.svg
+          else
+            echo "Error: Downloaded file is not a valid SVG"
+            cat assets/temp.svg
+            exit 1
+          fi
 
       - name: Commit updated SVG
         run: |
