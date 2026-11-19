@@ -2,8 +2,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Runs automatically every 6 hours
-  workflow_dispatch: # Manual "Run workflow" button in Actions tab
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,17 +14,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Stats SVG
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Stats SVG
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p assets
-          curl -s -L -A "Mozilla/5.0" "https://vercel.app" -o assets/temp.svg
-          if grep -q "<svg" assets/temp.svg; then
-            mv assets/temp.svg assets/stats.svg
-          else
-            echo "Error: Downloaded file is not a valid SVG"
-            cat assets/temp.svg
-            exit 1
-          fi
+          git clone --depth 1 https://github.com /tmp/grs
+          cd /tmp/grs && npm install --omit=dev
+          node -e '
+            const fs = require("fs");
+            const api = require("/tmp/grs/api/index.js");
+            const req = { query: { username: "VimukthiUdeshan", show_icons: "true", hide_border: "true", bg_color: "0F172A", title_color: "60A5FA", icon_color: "38BDF8", text_color: "CBD5E1", border_radius: "12", disable_animations: "true" } };
+            const res = { setHeader: () => {}, send: (svg) => { fs.mkdirSync("assets", { recursive: true }); fs.writeFileSync("assets/stats.svg", svg); } };
+            api(req, res);
+          '
 
       - name: Commit updated SVG
         run: |
