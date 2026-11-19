@@ -27,9 +27,30 @@ jobs:
           cd /tmp/grs && npm install --omit=dev
           node -e '
             const fs = require("fs");
+            const path = require("path");
             const api = require("/tmp/grs/api/index.js");
-            const req = { query: { username: "VimukthiUdeshan", show_icons: "true", hide_border: "true", bg_color: "0F172A", title_color: "60A5FA", icon_color: "38BDF8", text_color: "CBD5E1", border_radius: "12", disable_animations: "true" } };
-            const res = { setHeader: () => {}, send: (svg) => { fs.mkdirSync("assets", { recursive: true }); fs.writeFileSync("assets/stats.svg", svg); } };
+            const outDir = path.join(process.env.GITHUB_WORKSPACE, "assets");
+            fs.mkdirSync(outDir, { recursive: true });
+            const req = {
+              query: {
+                username: "VimukthiUdeshan",
+                show_icons: "true",
+                hide_border: "true",
+                bg_color: "0F172A",
+                title_color: "60A5FA",
+                icon_color: "38BDF8",
+                text_color: "CBD5E1",
+                border_radius: "12",
+                disable_animations: "true"
+              }
+            };
+            const res = {
+              setHeader: () => {},
+              send: (svg) => {
+                fs.writeFileSync(path.join(outDir, "stats.svg"), svg);
+                console.log("Saved stats.svg successfully!");
+              }
+            };
             api(req, res);
           '
 
