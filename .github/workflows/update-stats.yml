@@ -2,65 +2,26 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # Runs automatically every 6 hours
+  workflow_dispatch: # Manual "Run workflow" button in Actions tab
 
 permissions:
   contents: write
 
 jobs:
-  update-card:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate GitHub Stats SVG
+        uses: jstrieb/github-stats@v1
         with:
-          node-version: '20'
-
-      - name: Generate Stats SVG
-        env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git clone --depth 1 https://github.com /tmp/grs
-          cd /tmp/grs && npm install --omit=dev
-          node --input-type=module -e '
-            import fs from "fs";
-            import path from "path";
-            import api from "/tmp/grs/api/index.js";
-
-            const outDir = path.join(process.env.GITHUB_WORKSPACE, "assets");
-            fs.mkdirSync(outDir, { recursive: true });
-
-            const req = {
-              query: {
-                username: "VimukthiUdeshan",
-                show_icons: "true",
-                hide_border: "true",
-                bg_color: "0F172A",
-                title_color: "60A5FA",
-                icon_color: "38BDF8",
-                text_color: "CBD5E1",
-                border_radius: "12",
-                disable_animations: "true"
-              }
-            };
-
-            const res = {
-              setHeader: () => {},
-              send: (svg) => {
-                fs.writeFileSync(path.join(outDir, "stats.svg"), svg);
-                console.log("Saved stats.svg successfully!");
-              }
-            };
-
-            await api(req, res);
-          '
-
-      - name: Commit updated SVG
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add assets/stats.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update GitHub stats" && git push)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: VimukthiUdeshan
+          OUTPUT_PATH: assets/stats.svg
+          TITLE_COLOR: "#60A5FA"
+          TEXT_COLOR: "#CBD5E1"
+          ICON_COLOR: "#38BDF8"
+          BG_COLOR: "#0F172A"
+          BORDER_COLOR: "#0F172A"
