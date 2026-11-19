@@ -25,12 +25,14 @@ jobs:
         run: |
           git clone --depth 1 https://github.com /tmp/grs
           cd /tmp/grs && npm install --omit=dev
-          node -e '
-            const fs = require("fs");
-            const path = require("path");
-            const api = require("/tmp/grs/api/index.js");
+          node --input-type=module -e '
+            import fs from "fs";
+            import path from "path";
+            import api from "/tmp/grs/api/index.js";
+
             const outDir = path.join(process.env.GITHUB_WORKSPACE, "assets");
             fs.mkdirSync(outDir, { recursive: true });
+
             const req = {
               query: {
                 username: "VimukthiUdeshan",
@@ -44,6 +46,7 @@ jobs:
                 disable_animations: "true"
               }
             };
+
             const res = {
               setHeader: () => {},
               send: (svg) => {
@@ -51,7 +54,8 @@ jobs:
                 console.log("Saved stats.svg successfully!");
               }
             };
-            api(req, res);
+
+            await api(req, res);
           '
 
       - name: Commit updated SVG
