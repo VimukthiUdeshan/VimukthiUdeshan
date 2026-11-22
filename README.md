@@ -94,6 +94,52 @@ Add when ready:
 </details>
 
 <details>
+<summary><b>StuDZ — University Student Companion App</b></summary>
+
+<br />
+
+A cross-platform **mobile app for engineering undergraduates** that brings timetables, attendance, exams, GPA, notes and a campus community into one place. It is built around the **Faculty of Engineering Student Guide 2026**, so the module, lecturer and elective data is built into the app.
+
+| Area | Details |
+| :--- | :--- |
+| Domain | Mobile Development · Backend & Security · Gemini API Integration |
+| Core technologies | React Native · Expo · TypeScript · Supabase · Gemini API |
+| Status | **In active development** · Android builds via EAS |
+
+### Key Features
+
+- **Timetable Extraction with Gemini API:** Students upload a PDF or photo of their timetable. A Supabase Edge Function sends it to the Gemini API, which returns structured JSON. Lecturers are matched against the staff directory, and a review screen lets students correct every entry before it is saved.
+- **Semester Setup:** Compulsory, elective and optional modules, with elective credit groups taken from the handbook.
+- **Hybrid Attendance:** Online participation limits per module, labs attended in person, and adaptive notification polls after each class.
+- **Live Class Countdown:** A circular progress ring during lectures, with a one-tap join link for online sessions.
+- **Exams & Revision Tracking:** Exam countdowns with per-module syllabus coverage.
+- **GPA Tools:** The handbook grading scale, re-sit and repeat caps, class honours, and past-semester grade entry.
+- **Notes:** Typed, handwritten (SVG canvas) and photo notes organised by module and topic, with sharing to the community.
+- **Community & Groups:** Posts with photos, comments and reporting, plus private invite-code groups with realtime chat.
+- **Account Security:** University-email registration enforced by database triggers, email confirmation, Row Level Security, rate limits, and automatic hiding of repeatedly reported content.
+- **Admin Website:** A web panel for the module catalog, lecturers, academic calendar, announcements, moderation and users.
+
+### Technology Stack
+
+| Component | Technologies |
+| :--- | :--- |
+| Mobile Application | React Native · Expo (SDK 54) · TypeScript · Expo Router |
+| Backend & Database | Supabase Auth · PostgreSQL · Row Level Security · Realtime · Storage |
+| Serverless | Supabase Edge Functions (Deno) |
+| Document Understanding | Gemini API (image and PDF input, structured JSON output) |
+| Graphics & Device | react-native-svg · expo-notifications · expo-image-picker |
+| Build & Release | EAS Build (Android APK) |
+| Admin Panel | HTML · CSS · JavaScript |
+
+<!--
+<a href="https://github.com/VimukthiUdeshan/StuDZ">
+  <img src="https://img.shields.io/badge/View_Repository-StuDZ-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View StuDZ repository" />
+</a>
+-->
+
+</details>
+
+<details>
 <summary><b>RescueMesh — AI-Assisted Flood Emergency Response</b></summary>
 
 <br />
@@ -297,25 +343,25 @@ Soil data is collected by an **ESP32** connected to a **pH probe sensor (0–14 
 ### Programming Languages
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,python,java,js,dart&theme=dark" alt="C++, Python, Java, JavaScript, Dart" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,java,js,ts,dart&theme=dark" alt="C++, Python, Java, JavaScript, TypeScript, Dart" />
 </p>
 
-### Web Development & Databases
+### Web, Backend & Databases
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,nodejs,mysql&theme=dark" alt="HTML, CSS, Node.js, MySQL" />
+  <img src="https://skillicons.dev/icons?i=html,css,nodejs,express,flask,mysql,postgres&theme=dark" alt="HTML, CSS, Node.js, Express, Flask, MySQL, PostgreSQL" />
 </p>
 
 ### Mobile App Development
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=flutter&theme=dark" alt="Flutter" />
+  <img src="https://skillicons.dev/icons?i=flutter,react&theme=dark" alt="Flutter, React Native" />
 </p>
 
-### Cloud & Containers
+### Cloud, Backend Services & Containers
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,docker&theme=dark" alt="AWS, Docker" />
+  <img src="https://skillicons.dev/icons?i=aws,firebase,supabase,docker&theme=dark" alt="AWS, Firebase, Supabase, Docker" />
 </p>
 
 ### Development & Design Tools
@@ -324,12 +370,13 @@ Soil data is collected by an **ESP32** connected to a **pH probe sensor (0–14 
   <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman&theme=dark" alt="Git, GitHub, Visual Studio Code, Figma, Postman" />
 </p>
 
-### Currently Exploring
+### Also Worked With
 
 <p align="left">
-  <img src="https://img.shields.io/badge/OpenMP-Parallel_Programming-1E3A8A?style=flat-square" alt="Exploring OpenMP" />
-  <img src="https://img.shields.io/badge/GNNs-Graph_Neural_Networks-2563EB?style=flat-square" alt="Exploring Graph Neural Networks" />
-  <img src="https://img.shields.io/badge/HPC-Performance_Optimisation-334155?style=flat-square" alt="Exploring HPC performance optimisation" />
+  <img src="https://img.shields.io/badge/Expo-EAS_Build-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo and EAS Build" />
+  <img src="https://img.shields.io/badge/Google_Gemini-API-2563EB?style=flat-square" alt="Google Gemini API" />
+  <img src="https://img.shields.io/badge/Deno-Edge_Functions-334155?style=flat-square" alt="Supabase Edge Functions on Deno" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-334155?style=flat-square" alt="scikit-learn" />
 </p>
 
 ---
