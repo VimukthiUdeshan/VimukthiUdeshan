@@ -2,33 +2,31 @@
 
 <div align="center">
 
-<img src="./header.svg" width="100%" alt="Vimukthi Rajapaksha" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:140B2E,50:5B21B6,100:E0A526&text=Vimukthi%20Rajapaksha&fontColor=ffffff&fontSize=42&fontAlignY=38" alt="Vimukthi Rajapaksha" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1500&color=D4AF37&center=true&vCenter=true&width=850&lines=Computer+Engineering+Undergraduate;High+Performance+Computing+Minor;Exploring+Software%2C+Cloud+and+IoT;Learning+Through+Hands-On+Projects" alt="Computer Engineering undergraduate with a minor in High Performance Computing" width="100%" />
-
-<br />
-
-<p align="center">
-  <img src="https://img.shields.io/badge/University_of_Sri_Jayewardenepura-4C1D95?style=for-the-badge&labelColor=140B2E" alt="University of Sri Jayewardenepura" />
-  <img src="https://img.shields.io/badge/Faculty_of_Engineering-B08D29?style=for-the-badge&labelColor=140B2E" alt="Faculty of Engineering" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Major-Computer_Engineering-4C1D95?style=flat-square&labelColor=140B2E" alt="Major in Computer Engineering" />
-  <img src="https://img.shields.io/badge/Minor-High_Performance_Computing-B08D29?style=flat-square&labelColor=140B2E" alt="Minor in High Performance Computing" />
-  <img src="https://img.shields.io/badge/Location-Sri_Lanka-3B2A6B?style=flat-square&labelColor=140B2E" alt="Sri Lanka" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1500&color=D4A017&center=true&vCenter=true&width=850&lines=Computer+Engineering+Undergraduate;High+Performance+Computing+Minor;Exploring+Software%2C+Cloud+and+IoT;Learning+Through+Hands-On+Projects" alt="Computer Engineering undergraduate with a minor in High Performance Computing" width="100%" />
 
 <br />
+
+<img src="https://img.shields.io/badge/University-Sri%20Jayewardenepura-4C1D95?style=for-the-badge" alt="University of Sri Jayewardenepura" />
+<img src="https://img.shields.io/badge/Faculty-Engineering-6D28D9?style=for-the-badge" alt="Faculty of Engineering" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/Major-Computer%20Engineering-3B2A6B?style=flat-square" alt="Major in Computer Engineering" />
+<img src="https://img.shields.io/badge/Minor-High%20Performance%20Computing-4C1D95?style=flat-square" alt="Minor in High Performance Computing" />
+<img src="https://img.shields.io/badge/Location-Sri%20Lanka-3B2A6B?style=flat-square" alt="Sri Lanka" />
+
+<br /><br />
 
 <a href="https://www.linkedin.com/in/vimukthirajapaksha/">
   <img src="https://img.shields.io/badge/LinkedIn-4C1D95?style=for-the-badge&logo=linkedin&logoColor=D4AF37&labelColor=140B2E" alt="LinkedIn" />
 </a>
 <a href="mailto:vimukthiudeshan2018@gmail.com">
-  <img src="https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=D4AF37&labelColor=140B2E" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-Contact_Me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" />
 </a>
 <a href="https://github.com/VimukthiUdeshan?tab=repositories">
-  <img src="https://img.shields.io/badge/GitHub-4C1D95?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-My_Projects-140B2E?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" />
 </a>
 
 </div>
@@ -93,7 +91,7 @@ Add when ready:
 -->
 
 <a href="https://github.com/TropicStore/TropicStore">
-  <img src="https://img.shields.io/badge/View_Repository-TropicStore-6D28D9?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="View TropicStore repository" />
+  <img src="https://img.shields.io/badge/View_Repository-TropicStore-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View TropicStore repository" />
 </a>
 
 </details>
@@ -138,7 +136,7 @@ A cross-platform **mobile app for engineering undergraduates** that brings timet
 
 <!--
 <a href="https://github.com/VimukthiUdeshan/StuDZ">
-  <img src="https://img.shields.io/badge/View_Repository-StuDZ-6D28D9?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="View StuDZ repository" />
+  <img src="https://img.shields.io/badge/View_Repository-StuDZ-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View StuDZ repository" />
 </a>
 -->
 
@@ -249,7 +247,7 @@ then replace YOUR_REPOSITORY_URL with your GitHub repository link.
 [View Repository →](YOUR_REPOSITORY_URL)
 -->
 <a href="https://github.com/VR-Force/cloud-based-multi-tenant-ai-platform">
-  <img src="https://img.shields.io/badge/View_Repository-Cloud_AI_Platform-6D28D9?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="View Cloud AI Platform repository" />
+  <img src="https://img.shields.io/badge/View_Repository-Cloud_AI_Platform-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View Cloud AI Platform repository" />
 </a>
 
 </details>
@@ -282,7 +280,7 @@ Developed for **CO3251 – Natural Language Processing** at the University of Sr
 | PDF Export | ReportLab |
 
 <a href="https://github.com/VimukthiUdeshan/shelfy-ai">
-  <img src="https://img.shields.io/badge/View_Repository-Shelfy_AI-6D28D9?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="View Shelfy AI repository" />
+  <img src="https://img.shields.io/badge/View_Repository-Shelfy_AI-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View Shelfy AI repository" />
 </a>
 
 </details>
@@ -336,7 +334,7 @@ Soil data is collected by an **ESP32** connected to a **pH probe sensor (0–14 
 | Crop Scoring Module | Python · Flask |
 
 <a href="https://github.com/Rifthy2003/Smart-Farming">
-  <img src="https://img.shields.io/badge/View_Repository-Smart_Farming-6D28D9?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="View Smart Farming repository" />
+  <img src="https://img.shields.io/badge/View_Repository-Smart_Farming-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="View Smart Farming repository" />
 </a>
 
 </details>
@@ -378,10 +376,10 @@ Soil data is collected by an **ESP32** connected to a **pH probe sensor (0–14 
 ### Also Worked With
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Expo-EAS_Build-000020?style=flat-square&logo=expo&logoColor=white&labelColor=140B2E" alt="Expo and EAS Build" />
-  <img src="https://img.shields.io/badge/Google_Gemini-API-6D28D9?style=flat-square&labelColor=140B2E" alt="Google Gemini API" />
-  <img src="https://img.shields.io/badge/Deno-Edge_Functions-3B2A6B?style=flat-square&labelColor=140B2E" alt="Supabase Edge Functions on Deno" />
-  <img src="https://img.shields.io/badge/scikit--learn-ML-3B2A6B?style=flat-square&labelColor=140B2E" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Expo-EAS_Build-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo and EAS Build" />
+  <img src="https://img.shields.io/badge/Google_Gemini-API-6D28D9?style=flat-square" alt="Google Gemini API" />
+  <img src="https://img.shields.io/badge/Deno-Edge_Functions-3B2A6B?style=flat-square" alt="Supabase Edge Functions on Deno" />
+  <img src="https://img.shields.io/badge/scikit--learn-ML-3B2A6B?style=flat-square" alt="scikit-learn" />
 </p>
 
 ---
@@ -471,9 +469,9 @@ Keep image widths: 180 for square badges, 280 for landscape certificates.
 
 | Certificate | Details |
 | :--- | :--- |
-| <a href="./assets/aws-cloud-foundations.png"><img src="./assets/aws-cloud-foundations.png" alt="AWS Academy Graduate - Cloud Foundations - Training Badge" width="180" /></a> | **AWS Academy Graduate – Cloud Foundations**<br />Issued by Amazon Web Services Training and Certification<br /><br /><img src="https://img.shields.io/badge/AWS_Academy-Cloud_Foundations-232F3E?style=flat-square&logo=amazonaws&logoColor=white&labelColor=140B2E" alt="AWS Academy Cloud Foundations" /> <img src="https://img.shields.io/badge/Type-Training_Badge-3B2A6B?style=flat-square&labelColor=140B2E" alt="Training Badge" /><br /><br />[Verify Badge on Credly →](https://www.credly.com/go/rAV5W1Ypo425QERsXvnjUA) |
-| <a href="./assets/kaggle-intro-to-machine-learning.png"><img src="./assets/kaggle-intro-to-machine-learning.jpg" alt="Kaggle - Intro to Machine Learning Certificate of Completion" width="280" /></a> | **Intro to Machine Learning**<br />Issued by Kaggle · 26 November 2026<br /><br /><img src="https://img.shields.io/badge/Kaggle-Certificate_of_Completion-20BEFF?style=flat-square&logo=kaggle&logoColor=white&labelColor=140B2E" alt="Kaggle Certificate of Completion" /> <img src="https://img.shields.io/badge/Issued-November_2026-B08D29?style=flat-square&labelColor=140B2E" alt="Issued November 2026" /> <img src="https://img.shields.io/badge/Focus-Machine_Learning-3B2A6B?style=flat-square&labelColor=140B2E" alt="Machine Learning" /><br /><br />*Certificate of Completion awarded by Kaggle for successfully completing the Intro to Machine Learning course.*<br /><br />[View Certificate →](./assets/kaggle-intro-to-machine-learning.jpg) |
-| <a href="./assets/python-for-beginners-uom.pdf"><img src="./assets/python-for-beginners-uom.png" alt="Python for Beginners E-Certificate, University of Moratuwa" width="280" /></a> | **Python for Beginners (Participant)**<br />Centre for Open & Distance Learning (CODL), University of Moratuwa · 26 November 2026<br /><br /><img src="https://img.shields.io/badge/Python-E--Certificate-6D28D9?style=flat-square&logo=python&logoColor=white&labelColor=140B2E" alt="Python E-Certificate" /> <img src="https://img.shields.io/badge/Issued-November_2026-B08D29?style=flat-square&labelColor=140B2E" alt="Issued November 2026" /> <img src="https://img.shields.io/badge/University_of_Moratuwa-CODL-3B2A6B?style=flat-square&labelColor=140B2E" alt="University of Moratuwa CODL" /><br /><br />*E-Certificate for participating in the Python for Beginners online learning programme, conducted by the Department of Computer Science & Engineering, Faculty of Engineering, University of Moratuwa.*<br /><br />**Credential ID:** `7uuGW3soj8`<br />[Verify Certificate →](https://open.uom.lk/verify) · [Download PDF →](./assets/python-for-beginners-uom.pdf) |
+| <a href="./assets/aws-cloud-foundations.png"><img src="./assets/aws-cloud-foundations.png" alt="AWS Academy Graduate - Cloud Foundations - Training Badge" width="180" /></a> | **AWS Academy Graduate – Cloud Foundations**<br />Issued by Amazon Web Services Training and Certification<br /><br /><img src="https://img.shields.io/badge/AWS_Academy-Cloud_Foundations-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS Academy Cloud Foundations" /> <img src="https://img.shields.io/badge/Type-Training_Badge-3B2A6B?style=flat-square" alt="Training Badge" /><br /><br />[Verify Badge on Credly →](https://www.credly.com/go/rAV5W1Ypo425QERsXvnjUA) |
+| <a href="./assets/kaggle-intro-to-machine-learning.png"><img src="./assets/kaggle-intro-to-machine-learning.png" alt="Kaggle - Intro to Machine Learning Certificate of Completion" width="280" /></a> | **Intro to Machine Learning**<br />Issued by Kaggle · 26 November 2026<br /><br /><img src="https://img.shields.io/badge/Kaggle-Certificate_of_Completion-20BEFF?style=flat-square&logo=kaggle&logoColor=white" alt="Kaggle Certificate of Completion" /> <img src="https://img.shields.io/badge/Issued-November_2026-6D28D9?style=flat-square" alt="Issued November 2026" /> <img src="https://img.shields.io/badge/Focus-Machine_Learning-3B2A6B?style=flat-square" alt="Machine Learning" /><br /><br />*Certificate of Completion awarded by Kaggle for successfully completing the Intro to Machine Learning course.*<br /><br />[View Certificate →](./assets/kaggle-intro-to-machine-learning.png) |
+| <a href="./assets/python-for-beginners-uom.pdf"><img src="./assets/python-for-beginners-uom.png" alt="Python for Beginners E-Certificate, University of Moratuwa" width="280" /></a> | **Python for Beginners (Participant)**<br />Centre for Open & Distance Learning (CODL), University of Moratuwa · 26 November 2026<br /><br /><img src="https://img.shields.io/badge/Python-E--Certificate-6D28D9?style=flat-square&logo=python&logoColor=white" alt="Python E-Certificate" /> <img src="https://img.shields.io/badge/Issued-November_2026-4C1D95?style=flat-square" alt="Issued November 2026" /> <img src="https://img.shields.io/badge/University_of_Moratuwa-CODL-3B2A6B?style=flat-square" alt="University of Moratuwa CODL" /><br /><br />*E-Certificate for participating in the Python for Beginners online learning programme, conducted by the Department of Computer Science & Engineering, Faculty of Engineering, University of Moratuwa.*<br /><br />**Credential ID:** `7uuGW3soj8`<br />[Verify Certificate →](https://open.uom.lk/verify) · [Download PDF →](./assets/python-for-beginners-uom.pdf) |
 
 <!--
 KAGGLE CREDENTIAL LINK:
@@ -497,7 +495,7 @@ If you have a public Kaggle certificate URL, add it next to "View Certificate" l
 ## GitHub Activity
  
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=VimukthiUdeshan&show_icons=true&hide_border=true&bg_color=140B2E&title_color=D4AF37&icon_color=F5D77A&text_color=EDE9FE&border_radius=12" alt="Vimukthi Rajapaksha's GitHub statistics" width="460" />
+  <img src="https://github-stats-extended.vercel.app/api?username=VimukthiUdeshan&show_icons=true&hide_border=true&bg_color=140B2E&title_color=D4A017&icon_color=F5D77A&text_color=EDE9FE&border_radius=12" alt="Vimukthi Rajapaksha's GitHub statistics" width="460" />
 </p>
 
 <!--
@@ -513,14 +511,11 @@ If you have a public Kaggle certificate URL, add it next to "View Certificate" l
 Interested in discussing software, cloud computing, IoT, or parallel computing? Get in touch.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/vimukthirajapaksha/">
-    <img src="https://img.shields.io/badge/LinkedIn-Vimukthi_Rajapaksha-6D28D9?style=for-the-badge&logo=linkedin&logoColor=D4AF37&labelColor=140B2E" alt="Vimukthi Rajapaksha on LinkedIn" />
-  </a>
   <a href="mailto:vimukthiudeshan2018@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact_Me-6D28D9?style=for-the-badge&logo=gmail&logoColor=D4AF37&labelColor=140B2E" alt="Contact me by email" />
+    <img src="https://img.shields.io/badge/Gmail-Contact_Me-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact me by email" />
   </a>
   <a href="https://github.com/VimukthiUdeshan">
-    <img src="https://img.shields.io/badge/GitHub-VimukthiUdeshan-140B2E?style=for-the-badge&logo=github&logoColor=D4AF37&labelColor=140B2E" alt="VimukthiUdeshan on GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-VimukthiUdeshan-140B2E?style=for-the-badge&logo=github&logoColor=white" alt="VimukthiUdeshan on GitHub" />
   </a>
 </p>
 
@@ -528,4 +523,4 @@ Interested in discussing software, cloud computing, IoT, or parallel computing? 
 
 <!-- ==================== FOOTER ==================== -->
 
-<img src="./footer.svg" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:140B2E,50:5B21B6,100:E0A526" alt="" width="100%" />
